@@ -34,6 +34,12 @@ public class Bolo {
         return consegueAumentar;
     }
 
+    private boolean diminuirAquantidade(float quantidade){
+        float total = this.quantidade - quantidade;
+
+        if (total <= 0) { System.out.println("Você não tem toda essa Quantidade de Bolo >:()"); }
+        else { this.quantidade = quantidade;}
+    }
 
 
     public enum Sabor {
