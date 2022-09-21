@@ -24,6 +24,16 @@ public class Bolo {
         return new Fatia(this);
     }
 
+    public boolean aumentarQuantidade(float quantidade){
+        float total = this.quantidade + quantidade;
+        boolean consegueAumentar = total > peso;
+
+        if (!consegueAumentar) { System.out.println("O bolo não aquenta toda essa quantidade <:()"); }
+        else { this.quantidade = quantidade;}
+
+        return consegueAumentar;
+    }
+
 
 
     public enum Sabor {
