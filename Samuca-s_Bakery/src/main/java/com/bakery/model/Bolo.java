@@ -16,6 +16,13 @@ public class Bolo {
         this.quantidade = peso;
     }
 
+    public void provarBolo(){
+        diminuirAquantidade(0.100f);
+    }
+
+    public Fatia pegarUmaFatia(){
+        return new Fatia(this);
+    }
 
 
 
