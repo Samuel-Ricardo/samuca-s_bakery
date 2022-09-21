@@ -8,9 +8,14 @@ public class Bolo {
     private float quantidade;
     //private Massa massa;
 
-    public Bolo(){
-        peso = 1;
+    //padeiro - ele sabe executar a receitar e trazer um novo bolo
+    public Bolo(Sabor sabor, Cobertura cobertura, float peso){
+        this.sabor = sabor;
+        this.cobertura = cobertura;
+        this.peso = peso;
+        this.quantidade = peso;
     }
+
 
 
 
