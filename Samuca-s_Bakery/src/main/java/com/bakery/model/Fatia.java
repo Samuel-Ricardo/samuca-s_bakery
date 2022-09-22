@@ -5,7 +5,11 @@ public class Fatia {
     private Cobertura cobertura;
     private Tamanho tamanho;
 
-
+    public Fatia(Bolo bolo, Tamanho tamanhoDaFatia){
+        this.sabor = bolo.getSabor();
+        this.cobertura = bolo.getCobertura();
+        this.tamanho = tamanhoDaFatia;
+    }
 
     public enum Tamanho {
         GRANDE(0.250, "Grande"),
