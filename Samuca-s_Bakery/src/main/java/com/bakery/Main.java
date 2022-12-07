@@ -12,10 +12,17 @@ public class Main {
 
         Bolo boli = new Bolo(Cenoura, Cobertura.Chocolate, 1);
 
-        boli.pegarUmaFatia(Fatia.Tamanho.GRANDE);
-        boli.pegarUmaFatia(Fatia.Tamanho.GRANDE);
-        boli.pegarUmaFatia(Fatia.Tamanho.GRANDE);
-        boli.pegarUmaFatia(Fatia.Tamanho.GRANDE);
+
+        Bolo bolo = new Bolo(Cenoura, Cobertura.Chocolate, 1);
+
+
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
+        bolo.pegarUmaFatia(Fatia.Tamanho.MEDIA);
 
 
 
